@@ -1,0 +1,66 @@
+h1{
+    color: #FF0000;
+    font: 1em sans-serif;
+    font-size: xx-large;
+}
+*{
+    background-color: #123456;
+    border:0px;
+}
+h2{
+    color: #ffffff;
+    font: 1em sans-serif;
+    font-size: x-large;
+}
+p{
+    color:rgb(255, 255, 255);
+    font: 1em sans-serif;
+    font-size: larger;
+}
+.header{
+    color: #FF0000;
+    font: 1em sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+} 
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.menu{
+    color : #ffffff;
+    margin-right: 30px;
+    
+}
+a:visited{
+    color:white;
+}
+.item{
+    position : relative;
+}
+.item p{
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity : 0.33;
+}
